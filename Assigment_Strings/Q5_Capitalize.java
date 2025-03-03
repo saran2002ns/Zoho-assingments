@@ -6,9 +6,9 @@ public class Q5_Capitalize {
         string = string.trim();
         StringBuilder ans = new StringBuilder();
         for (String str : string.split(" ")) {
-            if(!str.isEmpty()){
+            if (!str.isEmpty()) {
                 StringBuilder sb = new StringBuilder(str);
-                if(Character.isLetter(str.charAt(0))){
+                if (Character.isLetter(str.charAt(0))) {
                     sb.setCharAt(0, Character.toUpperCase(str.charAt(0)));
                 }
                 ans.append(sb);
