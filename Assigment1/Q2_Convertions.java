@@ -41,11 +41,11 @@ public class Q2_Convertions {
         byte b5=(byte)l;System.out.println(b5);
 
         //byte to
-        float f6=(float)s;System.out.println(f6);
-        double d6=(double)s;System.out.println(d6);
-        short s6=(short)s;System.out.println(s6);
-        long l6=(long)s;System.out.println(l6);
-        int b6=(int)s;System.out.println(b6);
+        float f6=s;System.out.println(f6);
+        double d6=s;System.out.println(d6);
+        short s6=s;System.out.println(s6);
+        long l6=s;System.out.println(l6);
+        int b6=s;System.out.println(b6);
       
     }
 }

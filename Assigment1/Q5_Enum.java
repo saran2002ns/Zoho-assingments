@@ -10,6 +10,7 @@ public class Q5_Enum {
         int n=(sc.nextInt()-1)%7;
         if(n<0)
         System.out.println("invalid input");
+        
         else
         System.out.println(Day.values()[n]);
     }

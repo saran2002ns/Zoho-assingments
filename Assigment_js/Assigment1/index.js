@@ -1,3 +1,4 @@
+let sum=0;
 function addToList(event){
     event.preventDefault()
 
@@ -12,12 +13,16 @@ function addToList(event){
     expenseItem.classList.add("li");
     expenseItem.innerHTML = `
         <p>${category}</p>
-        <p>$${amount}</p>
-        <p>${date}</p>
+        <p id="amount">$${amount}</p>
+        <p >${date}</p>
         <button onclick="remove(event)">Delete</button>
     `;
+    sum+=Number(amount);
     let ul=document.getElementById("list");
     ul.append(expenseItem);
+
+    let a=document.getElementById("total-expensive");
+    a.textContent="Total Expensive : "+sum;
 
 
 }
