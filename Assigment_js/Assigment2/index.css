@@ -1,4 +1,4 @@
-/* body {
+body {
     font-family: Arial, sans-serif;
     background: #f7f7f7;
     margin: 0;
@@ -59,7 +59,7 @@ h1 {
 
 .expense-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #4CAF50;
     color: white;
     padding: 10px;
@@ -90,4 +90,4 @@ h1 {
 
 .expense-item button:hover {
     background: darkred;
-} */
+}
