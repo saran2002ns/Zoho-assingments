@@ -14,4 +14,5 @@ public class Q5_Enum {
         else
         System.out.println(Day.values()[n]);
     }
+    
 }

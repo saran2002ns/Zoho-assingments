@@ -1,4 +1,5 @@
 let sum=0;
+let red=0;
 function addToList(event){
     event.preventDefault()
 
@@ -28,5 +29,6 @@ function addToList(event){
 }
 
 function remove(event){
+    // event.target.
    event.target.parentElement.remove();
 }

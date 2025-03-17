@@ -6,7 +6,5 @@ public class Q3_MultiClass {
     }
 }
 class A{
-    public static void main(String[] args) {
-        System.out.println("In Class A");
-    }
+
 }
