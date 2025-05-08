@@ -1,0 +1,9 @@
+LMS:
+
+creatingAccount();  adding members
+login();
+bookDetails();
+takingBook();
+returningBook();
+viewMemberDetails();
+fineMembers();

@@ -1,0 +1,15 @@
+User{
+createAccount();
+login();
+searchSong();
+playSong();
+createPlayList();
+AddSongToPlayList();
+searchPlayList();
+suffilePlaylist();
+playPlaylist();
+searchArtist();
+ListArtistSong();
+viewHistory();
+}
+

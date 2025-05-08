@@ -1,0 +1,20 @@
+movie ticket:
+
+Admin{
+login();
+addMovie();
+removeMove();
+setTicketRate();
+setMoveRating();
+setMovieTimings();
+ArrangeSeats();
+}
+peoples{
+createAccount();
+login();
+chekingMovie();
+checkingAvailableSeats();
+bookTicket();
+PayAmmount();
+bookedticket();
+}
